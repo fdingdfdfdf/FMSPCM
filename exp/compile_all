@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#gfortran -c -g -traceback -ftrapuv -fp-stack-check -check iterate_kcm1d.f90
+
+#gfortran -c ls2.f90
+#gfortran -o ls2.e *.o
+#rm *.o
+
+gfortran -c lstracer_auto_grid.f90
+gfortran -o lstracer_auto_grid.e *.o
+rm *.o
+
+#gfortran -c lbl_auto_grid_postproc.f90
+#gfortran -o lbl_auto_grid_postproc.e *.o
+#rm *.o
+
+
